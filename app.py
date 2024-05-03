@@ -50,6 +50,7 @@ def alternar_estado_restaurante():
        if nome_restaurantes==restaurante['nome']:
       restaurante_encontrado=true
         restaurante['ativo']=nota restaurante ['ativo']
+        mensagem=f'0 restaurante {nome_restahrante} foi ativado
 
 
 
