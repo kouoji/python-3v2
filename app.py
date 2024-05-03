@@ -44,8 +44,8 @@ def listarRestaurantes():
         #modificar a maneira de listar para o dicionario
         nome_restaurante=restaurantes['nome']
         categoria=restaurante['categoria']
-        print(f'-{nome_restaurante}--{categoria}',--{ativo}')
-      ()
+        print(f'-{nome_restaurante}--{categoria}',--{ative}')
+      ativo=restaurante['ativi']
       voltar_menu_principal()
        
 
@@ -53,6 +53,7 @@ def cadastrar_novo_restaurante():
     nome_do_restaurante = input("Digite o nome do novo restaurante: ")
     categoria =input ( 'Digite a categoria do restaurante{nome_do_restaurante}')
     Dados_do_restaurante= {nome: nome_do_restaurante, 'categoria', categoria, 'ative': false}
+    restaurantes.apend(dados_do_restaurante)
     restaurantes.append(nome_do_restaurante)
     print(f"Você cadastrou o restaurante: {nome_do_restaurante}")
     voltar_menu_principal()
