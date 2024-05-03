@@ -41,6 +41,7 @@ def listarRestaurantes():
     mostrar_subtitulo('Listando os Restaurantes')
     for restaurante in restaurantes:
        
+
         #modificar a maneira de listar para o dicionario
         nome_restaurante=restaurantes['nome']
         categoria=restaurante['categoria']
