@@ -41,6 +41,21 @@ def listarRestaurantes():
         ativo = restaurante['ativo']
         print(f'-{nome_restaurante}--{categoria}--{ativo}')
 
+
+def alternar_estado_restaurante():
+    mostrar_subtituto("Alterando o estado do restaurante")
+    nome_restaurante=input("Digite o nome do restaurante que desejas alterar")
+    restaurante_encontrado=falar
+    for restaurantes in restaurantes:
+       if nome_restaurantes==restaurante['nome']:
+      restaurante_encontrado=true
+        restaurante['ativo']=nota restaurante ['ativo']
+
+
+
+
+
+
 def cadastrar_novo_restaurante():
     nome_do_restaurante = input("Digite o nome do novo restaurante: ")
     categoria = input(f'Digite a categoria do restaurante{nome_do_restaurante}:')
